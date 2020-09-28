@@ -1,0 +1,21 @@
+.courses {
+    background: #00005c;
+}
+
+.uottawa {
+    height: 2%;
+    width: 2%;
+    opacity: 50%;
+}
+
+.uottawa:hover {
+    opacity: 1;
+    transition: all 3s ease-out;
+}
+
+.text-green {
+    color:rgb(0, 189, 110);
+    text-align: center;
+    font-size: 50px;
+}
+

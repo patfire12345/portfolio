@@ -1,0 +1,38 @@
+.home {
+    background:#00005c;
+}
+
+.job {
+    background: #00005c;
+    color: #6b6bce;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.home-img {
+    opacity:50%;
+    position: relative;
+    left:50%;
+}
+
+.home-img:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.name {
+    text-align: center;
+    font-size: 5rem;
+    color:#ffffff;
+    background:#00005c;
+}
+
+.text {
+    color:#6b6bce;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+}
