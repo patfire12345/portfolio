@@ -6,7 +6,6 @@
     position: relative;
     height: 50%;
     width: 50%;
-    opacity: 75%;
     left: 5rem;
 }
 
@@ -20,7 +19,6 @@
     height: 20%;
     width: 20%;
     left: 10rem;
-    opacity: 75%;
 }
 
 /* .androidapp:hover {
@@ -33,7 +31,6 @@
     height: 50%;
     width: 50%;
     left: 5rem;
-    opacity: 75%;
 }
 
 /* .sudoku:hover {
