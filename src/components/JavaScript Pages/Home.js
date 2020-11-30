@@ -11,10 +11,10 @@ const Home = () => {
 
         // Includes Home
         <div className='home' id="/home">
-            <br/><br/><br/><br/>
+            <br/><br/><br></br>
             <div className="name"> PATRICK HUANG <br/></div>
             <div className="job"> SOFTWARE ENGINEER </div>
-            <br /> <br/>
+            {/* <br /> <br/> */}
 
             <School/>
             <br /> <br/>

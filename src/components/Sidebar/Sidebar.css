@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: #00005c;
+    background-color: #7b8ef8;
     height: 80px;
     display: flex;
     justify-content: start;
@@ -15,7 +15,7 @@
 }
 
 .side-menu {
-    background-color: #00005c;
+    background-color: #7b8ef8;
     width: 150px;
     height: 100vh;
     display: flex;
@@ -29,6 +29,7 @@
 
 .side-menu.active {
     left: 0;
+    top: 80px;
     transition: 350ms;
 }
 

@@ -1,9 +1,9 @@
 .home {
-    background:#00005c;
+    background:#FFFFFF;
 }
 
 .job {
-    background: #00005c;
+    background: #FFFFFF;
     color: #6b6bce;
     text-align: center;
     font-size: 2.5rem;
@@ -23,8 +23,8 @@
 .name {
     text-align: center;
     font-size: 5rem;
-    color:#ffffff;
-    background:#00005c;
+    color:#000000;
+    background:#FFFFFF;
 }
 
 .text {

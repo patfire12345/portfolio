@@ -1,5 +1,5 @@
 .projects {
-    background: #00005c;
+    background: #7b8ef8;
 }
 
 .dijkstra {
@@ -10,10 +10,10 @@
     left: 5rem;
 }
 
-.dijkstra:hover {
+/* .dijkstra:hover {
     opacity: 1;
     transition: all 3s ease-out;
-}
+} */
 
 .androidapp {
     position: relative;
@@ -23,10 +23,10 @@
     opacity: 75%;
 }
 
-.androidapp:hover {
+/* .androidapp:hover {
     opacity: 1;
     transition: all 3s ease-out;
-}
+} */
 
 .sudoku {
     position: relative;
@@ -36,7 +36,12 @@
     opacity: 75%;
 }
 
-.sudoku:hover {
+/* .sudoku:hover {
     opacity: 1;
     transition: all 3s ease-out;
+} */
+
+.text-black {
+    color: #000000;
+    text-align: center;
 }

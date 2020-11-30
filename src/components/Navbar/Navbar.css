@@ -1,6 +1,7 @@
 .NavbarItems {
-    background:#00005c; /*linear-gradient(90deg,rgb(110,94,254) 0%, rgba(73,63,252,1) 100%);*/
+    background:#7b8ef8; 
     height: 80px;
+    width: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;

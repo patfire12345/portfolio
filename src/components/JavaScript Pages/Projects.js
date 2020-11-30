@@ -15,7 +15,7 @@ const Projects = () => {
         {   
             texts.map(text => 
             <div>
-                <h1 className="text-green">{text.title}</h1>
+                <h1 className="text-black">{text.title}</h1>
                 <div className='text'>
                     {text.body}
                 </div>
