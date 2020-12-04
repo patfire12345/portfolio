@@ -16,10 +16,10 @@
     opacity:50%;
 }
 
-.assignment:hover {
+/* .assignment:hover {
     opacity: 1;
     transition: all 3s ease-out;
-}
+} */
 
 .icons {
     position: relative;
