@@ -13,13 +13,12 @@
     height:50%;
     width:50%;
     left: 150px;
-    opacity:50%;
 }
 
-/* .assignment:hover {
+.assignment:hover {
     opacity: 1;
     transition: all 3s ease-out;
-} */
+}
 
 .icons {
     position: relative;
