@@ -9,10 +9,10 @@
     left: 5rem;
 }
 
-/* .dijkstra:hover {
+.dijkstra:hover {
     opacity: 1;
     transition: all 3s ease-out;
-} */
+}
 
 .androidapp {
     position: relative;
@@ -21,10 +21,10 @@
     left: 10rem;
 }
 
-/* .androidapp:hover {
+.androidapp:hover {
     opacity: 1;
     transition: all 3s ease-out;
-} */
+}
 
 .sudoku {
     position: relative;
@@ -33,10 +33,10 @@
     left: 5rem;
 }
 
-/* .sudoku:hover {
+.sudoku:hover {
     opacity: 1;
     transition: all 3s ease-out;
-} */
+}
 
 .text-black {
     color: #000000;

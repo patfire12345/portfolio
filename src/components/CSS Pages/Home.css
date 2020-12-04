@@ -9,6 +9,10 @@
     font-size: 2.5rem;
 }
 
+.intro {
+    text-align: center;
+}
+
 .home-img {
     opacity:50%;
     position: relative;
@@ -22,7 +26,7 @@
 
 .name {
     text-align: center;
-    font-size: 5rem;
+    font-size: 2rem;
     color:#000000;
     background:#FFFFFF;
 }
