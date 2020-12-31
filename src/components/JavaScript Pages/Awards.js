@@ -7,15 +7,16 @@ import texts from './AwardsText';
 const Awards = () => {
     return(
         <div className='awards'>
-            <nav className='title' id='/awardsandcertificates'>Awards and Certificates</nav>
-            <div className='text'>CS50: Introduction to Game Design</div>
+            <nav className='title' id='/awardsandcertificates'>Extracurriculars</nav>
+            <h1 className='text-black'>CS50: Introduction to Game Design</h1>
+            <div className="text">Here are some projects that I completed during Harvard's video game design course!</div>
 
             <br/>
 
             {
                 texts.map( text =>
                     <div>
-
+                        <h1 className='text-black'>{text.title}</h1>
                         <a href={text.youtube}>
                             <img src={text.img} className="assignment" />
                         </a>

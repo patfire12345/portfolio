@@ -12,7 +12,7 @@ export const MenuItems = [
         cName: "nav-links",
     },
     {
-        title: "Awards and Certificates",
+        title: "Extracurriculars",
         url: "/awardsandcertificates",
         cName: "nav-links",
     },
