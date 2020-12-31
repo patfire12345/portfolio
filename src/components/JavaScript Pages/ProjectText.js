@@ -1,9 +1,16 @@
 import Dijkstra from '../../Images/Dijkstra.PNG';
 import AndroidApp from '../../Images/Android App.PNG';
 import Sudoku from "../../Images/Sudoku.PNG";
+import SmartHumidifier from "../../Images/SmartHumidifier.jpg";
 
 // Project Descriptions
 const texts = [
+    {title:'Smart Humidifier',
+    body: 'For my final project in ELG 3336 (Electronics for Mechanical Engineers), I created an environmental friendly, cost-efficient, smart humidifier that activates upon reaching a specific input temperature and humidity.',
+    link: 'https://github.com/patfire12345/SmartHumidifier',
+    img: SmartHumidifier,
+    cName: "smarthumidifier"},
+    
     {title:'Pathfinder Algorithm',
     body:"This project is an implementation of Dijkstra's algoithm. It finds the shortest path between a designated start point and end point. The code is from the pygame module (Python).",
     link:"https://github.com/patfire12345/Pathfinder",
