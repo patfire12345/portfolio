@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../CSS Pages/Home.css';
 import Table from './Table';
 import School from './School';
@@ -6,6 +6,10 @@ import School from './School';
 
 // Home page 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = "Patrick Huang";
+    }, []);
     
     return (
 
