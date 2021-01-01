@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Title from "../Title";
+import { AiFillCaretRight as Right } from "react-icons/ai";
 import texts from "./ProjectText";
 import '../CSS Pages/Projects.css';
 
@@ -81,6 +82,8 @@ const Projects = () => {
                     <img src={text.img} className={text.cName}/>
                     <br/>
                 </a>
+
+                {/* <Right onClick={() => text.img2 ? }/> */}
                 
                 <br/>
                 <br/>
@@ -98,9 +101,11 @@ const Projects = () => {
                 <br/>
 
                 <a href={text.link} target="_blank">
-                    <img src={text.img} className={text.cName}/>
+                    <img src={text.img} className={text.cName}/> 
                     <br/>
                 </a>
+
+                {/* <Right /> */}
                 
                 <br/>
                 <br/>

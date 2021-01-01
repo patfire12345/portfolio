@@ -2,9 +2,18 @@ import Dijkstra from '../../Images/Dijkstra.PNG';
 import AndroidApp from '../../Images/Android App.PNG';
 import Sudoku from "../../Images/Sudoku.PNG";
 import SmartHumidifier from "../../Images/SmartHumidifier.jpg";
+import RentAppsLogin from "../../Images/RentApps1.jpg";
+import RentAppsHome from "../../Images/RentApps2.jpg";
 
 // Project Descriptions
 const texts = [
+    {title:'RentApps',
+    body: 'As an observation of the housing business in Ottawa, I cofounded a React Native application that standardizes the leasing the process using React Native and MongoDB.',
+    link: 'https://github.com/patfire12345/rentapps-frontend',
+    img: RentAppsLogin,
+    img2: "hi",
+    cName: "rentappslogin"},
+
     {title:'Smart Humidifier',
     body: 'For my final project in ELG 3336 (Electronics for Mechanical Engineers), I created an environmental friendly, cost-efficient, smart humidifier that activates upon reaching a specific input temperature and humidity.',
     link: 'https://github.com/patfire12345/SmartHumidifier',
