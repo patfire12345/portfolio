@@ -12,7 +12,7 @@
     position: relative;
     height:50%;
     width:50%;
-    left: 150px;
+    left: 20rem;
 }
 
 .assignment:hover {
@@ -22,17 +22,17 @@
 
 .icons {
     position: relative;
-    left: 200px;
+    left: 20rem;
 }
 
 .icons-youtube {
     position: relative;
-    left: 200px;
+    left: 20rem;
 }
 
 .icons-github {
     position: relative;
-    left: 200px;
+    left: 20rem;
 }
 
 .text-black {

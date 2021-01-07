@@ -30,7 +30,7 @@
     text-align: center;
     width: 90vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 20rem; /*Changed margin-right from 2rem*/
     cursor: pointer;
 }
 
