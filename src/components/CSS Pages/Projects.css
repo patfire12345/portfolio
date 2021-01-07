@@ -6,7 +6,7 @@
     position: relative;
     height: 50%;
     width: 50%;
-    left: 20rem;
+    /* left: 20rem; */
 }
 
 .dijkstra:hover {
@@ -18,7 +18,7 @@
     position: relative;
     height: 20%;
     width: 20%;
-    left: 30rem;
+    /* left: 30rem; */
 }
 
 .androidapp:hover {
@@ -30,7 +30,7 @@
     position: relative;
     height: 50%;
     width: 50%;
-    left: 20rem;
+    /* left: 20rem; */
 }
 
 .sudoku:hover {
@@ -42,14 +42,14 @@
     position: relative;
     height: 25%;
     width: 25%;
-    left: 30rem;
+    /* left: 30rem; */
 }
 
 .rentappslogin {
     position: relative;
     height: 25%;
     width: 25%;
-    left: 30rem;
+    /* left: 30rem; */
 }
 
 .text-black {
