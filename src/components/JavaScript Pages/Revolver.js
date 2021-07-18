@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { AiFillCaretRight as Right, AiFillCaretLeft as Left } from 'react-icons/ai';
 import texts from './ProjectText'
+import ReactPlayer from "react-player";
 
 function Revolver() {
     // represents the project index
@@ -20,9 +21,19 @@ function Revolver() {
                 }}>
                     <Left/>
                 </button>
-                <a href={texts[counter].link}>
-                    <img src={texts[counter].img} style={{width:"25%", height: "25%", margin: "10px"}}/>
-                </a>
+                <div style={{position: "relative", right: "-250px", margin: "40px"}}>
+                    {
+                        texts[counter].img ?
+                        <img src={texts[counter].img} style={{width:"25%", height: "25%", margin: "10px"}}/> :
+                        <ReactPlayer 
+                            url={texts[counter].video} 
+                            playing={true} 
+                            light={true} 
+                            // need to work on
+                            // playIcon={<img src={texts[counter].videoImg}></img>}
+                        />
+                    }
+                </div>
                 <button 
                 style={{position: "absolute", right: "200px", top: "1300px"}}
                 onClick={() => {
